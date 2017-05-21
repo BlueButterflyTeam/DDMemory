@@ -1,0 +1,337 @@
+﻿Log file open, 05/21/17 13:27:32
+LogInit:Display: Running engine for game: DDMemory
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-318035528) SRandInit(-318035528).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.078908
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.21-17.27.33:878][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.21-17.27.33:878][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.21-17.27.33:887][  0]LogInit: Computer: DESKTOP-MTALPVH
+[2017.05.21-17.27.33:887][  0]LogInit: User: Paul
+[2017.05.21-17.27.33:887][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.05.21-17.27.33:887][  0]LogInit: High frequency timer resolution =2.728074 MHz
+[2017.05.21-17.27.33:887][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.21-17.27.33:887][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.21-17.27.33:887][  0]LogMemory: Process Physical Memory: 263.05 MB used, 263.05 MB peak
+[2017.05.21-17.27.33:887][  0]LogMemory: Process Virtual Memory: 261.98 MB used, 261.98 MB peak
+[2017.05.21-17.27.33:887][  0]LogMemory: Physical Memory: 4644.86 MB used,  3430.17 MB free, 8075.02 MB total
+[2017.05.21-17.27.33:887][  0]LogMemory: Virtual Memory: 643.24 MB used,  3430.17 MB free, 134217728.00 MB total
+[2017.05.21-17.27.33:982][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2017.05.21-17.27.34:714][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.21-17.27.34:757][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 850M' (Feature Level 11_0)
+[2017.05.21-17.27.34:757][  0]LogD3D11RHI:       2019/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.21-17.27.34:772][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.21-17.27.34:772][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.21-17.27.34:773][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.21-17.27.34:773][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.21-17.27.34:773][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.21-17.27.34:779][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.21-17.27.34:779][  0]LogD3D11RHI:     GPU DeviceId: 0x1391 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.21-17.27.34:779][  0]LogWindows: EnumDisplayDevices:
+[2017.05.21-17.27.34:779][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.05.21-17.27.34:780][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.21-17.27.34:780][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.21-17.27.34:780][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.21-17.27.34:780][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 850M
+[2017.05.21-17.27.34:780][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.21-17.27.34:780][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.21-17.27.34:780][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.21-17.27.34:806][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.05.21-17.27.34:806][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.21-17.27.34:822][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.21-17.27.34:823][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Intermediate/Shaders/WorkingDirectory/12388/).
+[2017.05.21-17.27.34:823][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Paul/AppData/Local/Temp/UnrealShaderWorkingDir/17E549BC45DCD28D38CE51A16393799E/'.
+[2017.05.21-17.27.34:823][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.21-17.27.36:065][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.21-17.27.36:127][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.21-17.27.36:189][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.21-17.27.36:248][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.21-17.27.36:309][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.21-17.27.36:370][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.21-17.27.36:430][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.21-17.27.36:491][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.21-17.27.36:542][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.21-17.27.36:601][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.21-17.27.36:660][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.21-17.27.36:720][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.21-17.27.36:777][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.21-17.27.36:839][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.21-17.27.36:896][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.21-17.27.37:016][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.21-17.27.37:016][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.21-17.27.37:060][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.21-17.27.37:164][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.21-17.27.37:201][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.21-17.27.37:259][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.21-17.27.37:319][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.21-17.27.37:377][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.21-17.27.37:437][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.21-17.27.37:437][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.21-17.27.37:924][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.21-17.27.37:991][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/Paul/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.21-17.27.37:991][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Paul/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.21-17.27.37:991][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.21-17.27.37:991][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.21-17.27.37:991][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.21-17.27.37:991][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.21-17.27.38:009][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.21-17.27.38:021][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Paul/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.21-17.27.38:031][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.21-17.27.38:031][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.21-17.27.38:031][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.21-17.27.38:381][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.21-17.27.38:384][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.21-17.27.38:620][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.21-17.27.38:667][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.21-17.27.38:722][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.21-17.27.38:722][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.21-17.27.38:722][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.21-17.27.39:307][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: ddmemory, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2100957153
+[2017.05.21-17.27.39:355][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2017.05.21-17.27.39:429][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.049135 seconds
+[2017.05.21-17.27.39:435][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.21-17.27.39:435][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.21-17.27.39:435][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.21-17.27.39:504][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.21-17.27.41:250][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.21-17.27.41:314][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.21-17.27.41:881][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.21-17.27.42:337][  0]SourceControl: Info Source control is disabled
+[2017.05.21-17.27.42:458][  0]SourceControl: Info Source control is disabled
+[2017.05.21-17.27.42:520][  0]SourceControl: Info Source control is disabled
+[2017.05.21-17.27.42:580][  0]SourceControl: Info Source control is disabled
+[2017.05.21-17.27.44:073][  0]LogEngine: Initializing Engine...
+[2017.05.21-17.27.44:074][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.21-17.27.44:187][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.21-17.27.44:187][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.21-17.27.44:332][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.21-17.27.44:337][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.21-17.27.44:419][  0]LogInit: FAudioDevice initialized.
+[2017.05.21-17.27.44:452][  0]LogDerivedDataCache: Saved boot cache 0.03s 51MB C:/Users/Paul/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.21-17.27.44:458][  0]LogInit: Texture streaming: Enabled
+[2017.05.21-17.27.44:566][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.21-17.27.44:664][  0]LogInit: Transaction tracking system initialized
+[2017.05.21-17.27.45:063][  0]BlueprintLog: New page: Editor Load
+[2017.05.21-17.27.46:182][  0]LocalizationService: Info Localization service is disabled
+[2017.05.21-17.27.46:976][  0]LogConsoleResponse:Display: 
+[2017.05.21-17.27.47:139][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paul/Documents/Git/DDMemory/DDMemory/Content/' took 0.01s
+[2017.05.21-17.27.47:139][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.21-17.27.47:139][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.21-17.27.48:331][  0]SourceControl: Info Source control is disabled
+[2017.05.21-17.27.48:331][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.21-17.27.48:331][  0]LightingResults: New page: Lighting Build
+[2017.05.21-17.27.48:379][  0]MapCheck: New page: Map Check
+[2017.05.21-17.27.48:379][  0]LightingResults: New page: Lighting Build
+[2017.05.21-17.27.48:586][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.21-17.27.48:607][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.21-17.27.48:612][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.21-17.27.48:616][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.21-17.27.48:650][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.384ms to complete.
+[2017.05.21-17.27.48:650][  0]LogFileHelpers: Loading map 'Template_Default' took 0.319
+[2017.05.21-17.27.48:707][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.21-17.27.49:210][  0]LogCollectionManager: Loaded 0 collections in 0.001475 seconds
+[2017.05.21-17.27.49:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paul/Documents/Git/DDMemory/DDMemory/Saved/Collections/' took 0.01s
+[2017.05.21-17.27.49:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Developers/Paul/Collections/' took 0.01s
+[2017.05.21-17.27.49:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Collections/' took 0.01s
+[2017.05.21-17.27.49:412][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.21-17.27.49:427][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2245 classes and 453 folders.
+[2017.05.21-17.27.49:521][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.21-17.27.51:175][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.21-17.27.51:289][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.21-17.27.52:073][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.21-17.27.52:152][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.21-17.27.52:253][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.05.21-17.27.52:254][  0]LogLoad: (Engine Initialization) Total time: 20.53 seconds
+[2017.05.21-17.27.52:254][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2017.05.21-17.27.52:254][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.21-17.27.52:254][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.21-17.27.52:267][  0]LogOcInput: OculusInput pre-init called
+[2017.05.21-17.27.52:342][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.21-17.27.52:344][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.21-17.27.52:347][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.21-17.27.52:392][  0]LogSlate: Took 0.018521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.21-17.27.52:696][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:2).
+[2017.05.21-17.27.53:279][  2]LogAssetRegistry: Asset discovery search completed in 13.9448 seconds
+[2017.05.21-17.27.53:279][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.05.21-17.27.53:279][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.05.21-17.28.08:020][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-17.28.08:040][484]PIE: New page: PIE session: Untitled_1 (May 21, 2017, 9:28:08 AM)
+[2017.05.21-17.28.08:060][484]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.21-17.28.08:079][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018833s)
+[2017.05.21-17.28.08:080][484]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.21-17.28.08:080][484]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2017.05.21-17.28.08:081][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.040691s)
+[2017.05.21-17.28.08:101][484]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.21-17.28.08:178][484]LogInit: FAudioDevice initialized.
+[2017.05.21-17.28.08:242][484]LogLoad: Game class is 'GameModeBase'
+[2017.05.21-17.28.08:313][484]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.21-13.28.08
+[2017.05.21-17.28.08:327][484]LogWorld: Bringing up level for play took: 0.015262
+[2017.05.21-17.28.08:417][484]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.21-17.28.08:447][484]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.395
+[2017.05.21-17.28.08:483][484]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1179).
+[2017.05.21-17.28.19:533][504]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-17.28.30:948][630]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-17.28.32:993][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.21-17.28.33:039][630]LogSavePackage: Save=20.35ms
+[2017.05.21-17.28.33:039][630]LogSavePackage: Moving '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Saved/MainMenu636767FF4CABBA742357F897A2626E41.tmp' to '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/MainMenu.umap'
+[2017.05.21-17.28.33:059][630]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/MainMenu.umap
+[2017.05.21-17.28.33:059][630]LogFileHelpers: Saving map 'MainMenu' took 0.116
+[2017.05.21-17.28.33:063][630]Cmd: MAP LOAD FILE="../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.21-17.28.33:063][630]LightingResults: New page: Lighting Build
+[2017.05.21-17.28.33:066][630]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.05.21-17.28.33:067][630]MapCheck: New page: Map Check
+[2017.05.21-17.28.33:067][630]LightingResults: New page: Lighting Build
+[2017.05.21-17.28.33:178][630]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.21-17.28.33:179][630]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.21-17.28.33:180][630]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.21-17.28.33:209][630]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.21-17.28.33:245][630]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.504ms to complete.
+[2017.05.21-17.28.33:245][630]LogFileHelpers: Loading map 'MainMenu' took 0.184
+[2017.05.21-17.28.45:970][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/PlayGround" FILE="../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/PlayGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.21-17.28.45:999][ 94]LogSavePackage: Save=9.57ms
+[2017.05.21-17.28.45:999][ 94]LogSavePackage: Moving '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Saved/PlayGroundAA5BC8C44E79788FCA640FA9FFBFB30F.tmp' to '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/PlayGround.umap'
+[2017.05.21-17.28.46:006][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/PlayGround.umap
+[2017.05.21-17.28.46:007][ 94]LogFileHelpers: Saving map 'PlayGround' took 0.073
+[2017.05.21-17.29.10:231][792]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.05.21-17.29.11:375][792]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-17.29.11:392][792]LogSlate: Took 0.016226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.21-17.29.17:279][175]LogMetaData: Removing '/Game/UI/W_MainMenu.SKEL_W_MainMenu_C' ref from Metadata '/Game/UI/MainMenu.PackageMetaData'
+[2017.05.21-17.29.17:279][175]LogMetaData: Removing '/Game/UI/W_MainMenu.W_MainMenu_C' ref from Metadata '/Game/UI/MainMenu.PackageMetaData'
+[2017.05.21-17.29.17:279][175]LogMetaData: Removing '/Game/UI/W_MainMenu.W_MainMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/MainMenu.PackageMetaData'
+[2017.05.21-17.29.17:279][175]LogMetaData: Removing '/Game/UI/W_MainMenu.W_MainMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/MainMenu.PackageMetaData'
+[2017.05.21-17.29.17:315][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/W_MainMenu" FILE="../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/UI/W_MainMenu.uasset" SILENT=true
+[2017.05.21-17.29.17:323][175]LogSavePackage: Save=5.29ms
+[2017.05.21-17.29.17:323][175]LogSavePackage: Moving '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Saved/W_MainMenuD8B2DB6741700B25EAAFE68CD2D84B8F.tmp' to '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/UI/W_MainMenu.uasset'
+[2017.05.21-17.29.17:330][175]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/UI/W_MainMenu.uasset
+[2017.05.21-17.30.57:773][192]BlueprintLog: New page: Compile W_MainMenu
+[2017.05.21-17.30.58:489][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/W_MainMenu" FILE="../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/UI/W_MainMenu.uasset" SILENT=true
+[2017.05.21-17.30.58:503][253]LogSavePackage: Save=7.96ms
+[2017.05.21-17.30.58:503][253]LogSavePackage: Moving '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Saved/W_MainMenu23C3E60D4136FC0CB51945966477190E.tmp' to '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/UI/W_MainMenu.uasset'
+[2017.05.21-17.30.58:511][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/UI/W_MainMenu.uasset
+[2017.05.21-17.31.21:232][719]LogSlate: Took 0.018465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.21-17.31.23:539][992]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.21-17.31.23:552][992]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.21-17.31.23:552][992]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.21-17.31.23:552][992]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2017.05.21-17.31.23:664][992]LogPlayLevel: PlayLevel: Blueprint regeneration took 112 ms (1 blueprints)
+[2017.05.21-17.31.23:664][992]PIE: New page: PIE session: MainMenu (May 21, 2017, 9:31:23 AM)
+[2017.05.21-17.31.23:664][992]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2017.05.21-17.31.23:665][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001103s)
+[2017.05.21-17.31.23:666][992]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.21-17.31.23:666][992]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2017.05.21-17.31.23:667][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002187s)
+[2017.05.21-17.31.23:698][992]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.21-17.31.23:775][992]LogInit: FAudioDevice initialized.
+[2017.05.21-17.31.23:813][992]LogLoad: Game class is 'GameModeBase'
+[2017.05.21-17.31.23:814][992]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.05.21-13.31.23
+[2017.05.21-17.31.23:814][992]LogWorld: Bringing up level for play took: 0.000809
+[2017.05.21-17.31.23:814][992]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.21-17.31.23:820][992]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.232
+[2017.05.21-17.31.23:820][992]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.21-17.31.25:385][137]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.21-17.31.25:430][137]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.21-17.31.27:465][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.21-17.31.27:598][350]LogSavePackage: Save=93.37ms
+[2017.05.21-17.31.27:598][350]LogSavePackage: Moving '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Saved/MainMenu856B0D6742A376B2CECAA49CED2BB9E3.tmp' to '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/MainMenu.umap'
+[2017.05.21-17.31.27:606][350]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/MainMenu.umap
+[2017.05.21-17.31.27:617][350]LogFileHelpers: Saving map 'MainMenu' took 0.197
+[2017.05.21-17.31.27:619][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu" FILE="../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/UI/MainMenu.uasset" SILENT=true
+[2017.05.21-17.31.27:623][350]LogSavePackage: Save=1.68ms
+[2017.05.21-17.31.27:623][350]LogSavePackage: Moving '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Saved/MainMenu2294586940AA34406A40B8BD988987D4.tmp' to '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/UI/MainMenu.uasset'
+[2017.05.21-17.31.27:629][350]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/UI/MainMenu.uasset
+[2017.05.21-17.31.30:038][611]Cmd: MAP LOAD FILE="../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/PlayGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.21-17.31.30:038][611]LightingResults: New page: Lighting Build
+[2017.05.21-17.31.30:039][611]LoadErrors: New page: Loading map: PlayGround.umap
+[2017.05.21-17.31.30:068][611]MapCheck: New page: Map Check
+[2017.05.21-17.31.30:068][611]LightingResults: New page: Lighting Build
+[2017.05.21-17.31.30:167][611]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.21-17.31.30:168][611]LogAIModule: Creating AISystem for world PlayGround
+[2017.05.21-17.31.30:176][611]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.21-17.31.30:213][611]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.915ms to complete.
+[2017.05.21-17.31.30:213][611]LogFileHelpers: Loading map 'PlayGround' took 0.177
+[2017.05.21-17.31.38:749][334]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.21-17.31.38:825][335]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DDMemory
+
+[2017.05.21-17.31.38:825][335]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.21-17.31.38:825][335]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.21-17.31.38:825][335]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.21-17.31.38:825][335]LogTemp:Display: BranchPath = DESKTOP-MTALPVH/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-MTALPVH/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.21-17.31.39:020][358]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Paul\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.05.21-17.31.39:020][358]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.21-17.31.39:020][358]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.21-17.31.39:020][358]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.21-17.31.39:020][358]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.21-17.31.39:020][358]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.05.21-17.33.16:579][772]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.21-17.33.16:595][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-17.33.16:595][772]PIE: New page: PIE session: PlayGround (May 21, 2017, 9:33:16 AM)
+[2017.05.21-17.33.16:595][772]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlayGround
+[2017.05.21-17.33.16:596][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000713s)
+[2017.05.21-17.33.16:597][772]LogAIModule: Creating AISystem for world PlayGround
+[2017.05.21-17.33.16:597][772]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2017.05.21-17.33.16:597][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlayGround.PlayGround to /Game/Maps/UEDPIE_0_PlayGround.PlayGround (0.002032s)
+[2017.05.21-17.33.16:639][772]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.21-17.33.16:724][772]LogInit: FAudioDevice initialized.
+[2017.05.21-17.33.16:772][772]LogLoad: Game class is 'GameModeBase'
+[2017.05.21-17.33.16:774][772]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlayGround.PlayGround up for play (max tick rate 0) at 2017.05.21-13.33.16
+[2017.05.21-17.33.16:774][772]LogWorld: Bringing up level for play took: 0.001331
+[2017.05.21-17.33.16:781][772]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlayGround 0.729
+[2017.05.21-17.33.42:773][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/PlayGround" FILE="../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/PlayGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.21-17.33.42:817][ 34]LogSavePackage: Save=10.69ms
+[2017.05.21-17.33.42:817][ 34]LogSavePackage: Moving '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Saved/PlayGround199EEDF6478BD6E5D02D7E9923603580.tmp' to '../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/PlayGround.umap'
+[2017.05.21-17.33.42:824][ 34]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Paul/Documents/Git/DDMemory/DDMemory/Content/Maps/PlayGround.umap
+[2017.05.21-17.33.42:839][ 34]LogFileHelpers: Saving map 'PlayGround' took 0.105
